@@ -1,0 +1,1 @@
+sh "/Users/felipeinostroza/Documents/dev/tools/confluent-6.1.0/bin/kafka-console-consumer" --bootstrap-server localhost:9092 --topic --from-beginning --whitelist "hello-producer-1|hello-producer-2"
